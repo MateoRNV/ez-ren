@@ -1,6 +1,6 @@
 {
   "name": "ez-ren",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Agnostic GPU-accelerated image editing engine powered by Pixi.js",
   "type": "module",
   "main": "./dist/index.js",
