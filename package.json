@@ -1,0 +1,28 @@
+{
+  "name": "ez-ren",
+  "version": "3.0.0",
+  "description": "Agnostic GPU-accelerated image editing engine powered by Pixi.js",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "build:watch": "tsc --project tsconfig.json --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@silvia-odwyer/photon": "^0.3.3",
+    "@types/emscripten": "^1.41.5",
+    "pixi.js": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.15",
+    "typescript": "^5.8.2"
+  }
+}
