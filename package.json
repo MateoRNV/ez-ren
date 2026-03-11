@@ -5,6 +5,25 @@
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateoRNV/ez-ren.git"
+  },
+  "keywords": [
+    "image-editor",
+    "gpu",
+    "pixijs",
+    "canvas",
+    "webgl",
+    "engine",
+    "filters",
+    "photo-editing"
+  ],
+  "author": "Mateo RNV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MateoRNV/ez-ren/issues"
+  },
   "homepage": "https://github.com/MateoRNV/ez-ren#readme",
   "exports": {
     ".": {
@@ -14,7 +33,6 @@
   },
   "scripts": {
     "build": "tsc --project tsconfig.json",
-    "build:watch": "tsc --project tsconfig.json --watch",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
